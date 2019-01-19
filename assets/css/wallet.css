@@ -36,6 +36,7 @@ html {
 #coupon-form {
     color: white;
     font-size: 30px;
+    text-align: center;
 }
 .btn.btn-primary {
     position: absolute;

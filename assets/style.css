@@ -7,7 +7,7 @@
     text-shadow: 2px 2px white;
     font-size: 75px;
     font-weight: bolder;
-    }
+}
 html {
     background: white; /* fallback color */
     background: linear-gradient( to bottom, white, blue);
@@ -15,7 +15,7 @@ html {
     background-size: cover;
     width: 100%;
     height: 100%;
-    }
+}
 body {
     background: white; /* fallback color */
     background: linear-gradient( to top, blue, white);
@@ -23,7 +23,7 @@ body {
     background-size: cover;
     width: 100%;
     height: 100%;
-    }
+}
  #findLocation {
     background: rgb(49, 75, 224);
     color: white;
@@ -34,11 +34,11 @@ body {
     position:relative;
     top:50%; 
     left:50%;
- }
+}
  .text-center {
     font-size: 50px;
     font-weight: bolder;
- }
+}
 h2 {
     text-align: center;
     font-size: 24px;
@@ -47,21 +47,19 @@ h2 {
     margin: auto;
     width: 80%;
     padding: 10px;
-  }
+}
 #addressTitle {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     font-size: 24px;
     width: 100%;
- 
 }
 .cardbody {
     margin-left: 20px;
-
 }
-
 #map {
     height: 500px;
     width: 500px;
-  }
+    margin-left: 400px;
+}

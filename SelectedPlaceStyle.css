@@ -1,0 +1,26 @@
+.jumbotron {
+    background-image: url(https://cdn1.vectorstock.com/i/1000x1000/12/70/perspective-background-of-abstract-city-map-vector-1471270.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: blue;
+    text-shadow: 2px 2px white;
+    font-size: 75px;
+    font-weight: bolder;
+}
+html {
+    background: white; /* fallback color */
+    background: linear-gradient( to bottom, white, blue);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+body {
+    background: white; /* fallback color */
+    background: linear-gradient( to top, blue, white);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
