@@ -1,5 +1,3 @@
-
-$(document).ready(function(){
 var map;
 var infowindow;
 
@@ -16,7 +14,7 @@ function initMap() {
     service.nearbySearch({
         location: pyrmont,
         radius: 500,
-        type: ['store']
+        type: ['restaurant']
     }, callback);
 }
 
@@ -39,4 +37,4 @@ function createMarker(place) {
         infowindow.setContent(place.name);
         infowindow.open(map, this);
     });
-}
+};
