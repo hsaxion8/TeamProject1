@@ -37,8 +37,12 @@ html {
     color: white;
     font-size: 30px;
     text-align: center;
+    font-weight: 300;
 }
 .btn.btn-primary {
     position: absolute;
     top: 0px;
+}
+#find-places {
+    
 }
