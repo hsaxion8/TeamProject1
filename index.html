@@ -9,8 +9,8 @@
    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
    <!-- Bootstrap -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-   <link rel="stylesheet" type="text/css" href="assets/style.css">
-   <script type="text/javascript" src="assets/script.js"></script>
+   <link rel="stylesheet" type="text/css" href="/assets/style.css">
+   <script type="text/javascript" src="/assets/script.js"></script>
    <script src="https://code.jquery.com/jquery.js"></script>
    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBr55XpXjv3LYHWgXv-Ev41pGs3JKyv0hY&libraries=places&callback=initMap"async defer></script>
 </head>
@@ -50,25 +50,11 @@
        </div>
    </div>
 
-   <div id="map"></div>
-   <br>
-
-   <div class="row" id="find-restaurant">
-            <div class="col-sm-9">
-                <br>
-
-                <div class="card">
-
-                    <div class="card-header">
-                        <strong><i class="fa fa-table"></i>Nearby Restaurants</strong>
-                    </div>
-
-                    <div class="card-body" id="restaurant-section">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+   <div id="floating-panel">
+       <input id="address" type="textbox" value="Sydney, NSW">
+       <input id="submit" type="button" value="Geocode">
+     </div>
+     <div id="map"></div>
 
 </body>
 
