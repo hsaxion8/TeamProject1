@@ -35,7 +35,7 @@ $(document).ready(function () {
 
                 var results = response.data;
 
-                $("#restaurant-view").empty();
+                $("#restaurant-view").text(JSON.stringify(response));
                 // Loop through each result item and create div for rating and image
                 for (var i = 0; i < results; i++) {
 
