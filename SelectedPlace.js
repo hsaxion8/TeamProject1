@@ -72,6 +72,11 @@ $(document).ready(function () {
                             var p = $("<p>").text("Link to Menu:" + resutls[i].menu_url);
                             var p = $("<p>").text("Restaurant Rating:" + results[i].user_rating.aggregate_rating.rating_test);
 
+                $("#restaurant-view").text(JSON.stringify(response));
+                // Loop through each result item and create div for rating and image
+                for (var i = 0; i < results; i++) {
+
+
                             console.log(restaurantDetailsDiv);
                             console.log(restaurantDetailsImage);
                             console.log(p);
