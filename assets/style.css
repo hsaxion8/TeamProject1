@@ -60,13 +60,13 @@
     margin-left: 20px;
  
 }
- #map {
-    width: 40%;
+#map {
+    width: 66%;
     height: 50%;
     border: 3px solid blue;
     padding: 20px;
     margin: auto;
-}
-#floating-panel {
-    padding-left: 500px;
-}
+ }
+ #floating-panel {
+    padding-left: 33%;
+ }
